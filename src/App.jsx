@@ -40,7 +40,7 @@ function App() {
         </div>
       </nav>
 
-      {/* Mobile Menu Button */}
+      {/* Mobile Menu Button rakesh*/}
       <button
         onClick={() => setIsMenuOpen(!isMenuOpen)}
         className="lg:hidden fixed top-4 right-4 z-50 text-white bg-zinc-800 p-2 rounded-full"
