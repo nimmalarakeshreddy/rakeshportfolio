@@ -15,7 +15,7 @@ function App() {
           <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-green-500 bg-clip-text text-transparent">
             Rakesh Reddy Nimmala
           </h2>
-          <p className="text-zinc-400 mt-2">Full Stack Developer</p>
+          <p className="text-zinc-400 mt-2">Frontend Developer</p>
         </div>
         <div className="space-y-6">
           <a href="#about" className="block text-zinc-400 hover:text-white transition-colors">About</a>
@@ -52,10 +52,10 @@ function App() {
       {isMenuOpen && (
         <nav className="lg:hidden fixed inset-0 bg-black bg-opacity-95 z-40 flex flex-col items-center justify-center">
           <div className="space-y-8 text-center">
-          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-green-500 bg-clip-text text-transparent">
-            Rakesh Reddy Nimmala
-          </h2>
-          <p className="text-zinc-400 mt-2">Full Stack Developer</p>
+            <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-green-500 bg-clip-text text-transparent">
+              Rakesh Reddy Nimmala
+            </h2>
+            <p className="text-zinc-400 mt-2">Frontend Developer</p>
             <a href="#about" onClick={() => setIsMenuOpen(false)} className="block text-2xl text-zinc-400 hover:text-white transition-colors">About</a>
             <a href="#experience" onClick={() => setIsMenuOpen(false)} className="block text-2xl text-zinc-400 hover:text-white transition-colors">Experience</a>
             <a href="#projects" onClick={() => setIsMenuOpen(false)} className="block text-2xl text-zinc-400 hover:text-white transition-colors">Projects</a>
@@ -71,36 +71,36 @@ function App() {
         {/* Hero Section */}
         <section id="about" className="min-h-screen flex items-center p-8 lg:p-16 bg-gradient-to-br from-zinc-900 to-black">
           <div>
-          <h2 className="lg:hidden text-2xl font-bold bg-gradient-to-r from-blue-400 to-green-500 bg-clip-text text-transparent">
-            Rakesh Reddy Nimmala
-          </h2>
-          <p className="lg:hidden text-zinc-400 mt-2">Full Stack Developer</p>
+            <h2 className="lg:hidden text-2xl font-bold bg-gradient-to-r from-blue-400 to-green-500 bg-clip-text text-transparent">
+              Rakesh Reddy Nimmala
+            </h2>
+            <p className="lg:hidden text-zinc-400 mt-2">Frontend Developer</p>
             <h1 className="text-5xl lg:text-7xl font-bold mb-2">
               Transforming Technology</h1>
             <span className="text-5xl lg:text-5xl font-bold block mt-2 bg-gradient-to-r from-blue-400 to-green-500 bg-clip-text text-transparent mb-6">
-
               <Typewriter
                 options={{
-                  strings: ['Full-Stack Java Developer',
-                    'Expert in React, JavaScript, and Node.js',
+                  strings: [
+                    'Frontend Developer',
+                    'Expert in React.js & Angular',
                     'Building Scalable Web Applications',
                     'Enhancing User Experience with Modern UI/UX',
+                    'WordPress & HTML/CSS Specialist',
                     'AWS & Cloud Enthusiast',
-                    'Freelancer & Problem Solver',
-                    'Driving Digital Innovation with Agile Development'],
+                    'Driving Digital Innovation with Agile Development'
+                  ],
                   autoStart: true,
                   loop: true,
                   delay: 75,
                 }}
               />
-
             </span>
 
             <p className="text-xl text-zinc-400 max-w-2xl mb-8">
-              Passionate Full Stack Developer with hands-on experience in building dynamic and user-friendly web applications.
-              Skilled in Java, React, Node.js, and cloud technologies like AWS.
-              I specialize in creating scalable solutions that enhance user engagement and streamline business processes.
-              With a deep understanding of front-end and back-end development, I craft high-performance applications using modern frameworks and best practices.
+              Frontend Developer with 5+ years of experience building web solutions —
+              from WordPress and HTML/CSS-based websites to enterprise-grade React and Angular SPAs.
+              Skilled in TypeScript, state management, REST API integration, and frontend performance optimization.
+              I deliver polished, accessible, and high-performance user experiences in Agile environments.
               Let's build something amazing together!
             </p>
             <a
@@ -118,50 +118,51 @@ function App() {
           <div className="space-y-12">
             {[
               {
-                title: "Full Stack Java Developer,",
-                company: "CVS Health",
-                period: "Aug 2023 - Present",
-                location: "Chicago, IL, USA",
+                title: "Frontend Developer",
+                company: "ExxonMobil",
+                period: "Jul 2024 – Present",
+                location: "Remote",
                 description: [
-                  "Designed and developed WCAG 2.1 AA-compliant responsive user interfaces using HTML, CSS3, and JavaScript (ES6), delivering seamless experiences across devices and browsers",
-                  "Created Restful microservices using spring boot",
-                  "Involved in creating and designing databases and connecting databases with Hibernate",
-                  "Developer single page applications using react using Hooks, redux for stateful management",
-                  "Leveraged ReactJS to develop reusable component architectures, incorporating modern front-end development practices",
-                  "Implemented intuitive navigation structures and interactive features, increasing user retention rates by 15%",
-                  "Developed and deployed scalable AWS solutions using EC2, S3, and RDS",
-                  "Contributed to CI/CD pipelines using Git and Agile methodologies, collaborating with cross-functional teams to iteratively deliver features aligned with business goals and user needs"
+                  "Contributing to the frontend development of an enterprise-grade platform using React 18, Angular, and TypeScript, building and maintaining scalable UI modules aligned with the team's design system.",
+                  "Developing Angular-based modules using component architecture, reactive forms, RxJS observables, and NgRx for state management across complex multi-step workflows.",
+                  "Building responsive and accessible interfaces using Tailwind CSS and Material UI, translating Figma wireframes into clean, browser-compatible screens following WCAG 2.1 guidelines.",
+                  "Implemented reusable React and Angular components with strong TypeScript typing, reducing duplication across modules and improving team-wide code consistency.",
+                  "Integrated frontend modules with RESTful APIs, handling async data flows using React Query and RxJS, and managing global state with Redux Toolkit and NgRx.",
+                  "Applied performance optimization techniques including lazy loading, code splitting, and memoization to improve page load times and interaction responsiveness.",
+                  "Wrote unit and component tests using Jest, React Testing Library, Jasmine, and Karma, contributing to improved test coverage across critical UI flows.",
+                  "Actively participated in Agile sprint ceremonies including daily standups, sprint planning, and retrospectives within a cross-functional team."
                 ]
               },
               {
-                title: "Software Application Developer",
-                company: "Multiplier Solutions ",
-                period: "Nov 2021 - Jul 2022",
-                location: "Hyderabad, India",
-                description: [
-                  " Developed and optimized web applications using React.js, JavaScript, PHP, and WordPress, achieving a 30% performance boost and a 20% reduction in page load times",
-                  " Designed and maintained dynamic, reusable React components, leveraging React hooks for efficient state management and component lifecycle handling",
-                  " Built and maintained user-friendly interfaces with a focus on responsive design and cross-browser compatibility",
-                  " Integrated RESTful APIs with React.js for seamless data flow between front-end and back-end systems",
-                  " Designed and implemented custom WordPress themes and plugins, improving website functionality and visual appeal",
-                  " Ensured cross-browser compatibility and seamless performance using Bootstrap framework",
-                  " Executed automated email and WhatsApp campaigns using Python scripting, enhancing customization and outreach efficiency",
-                  " Collaborated with a team of 5 developers to implement new features, reducing bugs by 40% and increasing customer satisfaction by 25%",
-                  " Developed server-side logic using Node.js to support React.js front-end applications"
-                ]
-              },
-              {
-                title: "Software Developer Executive",
+                title: "Junior Frontend Developer",
                 company: "Multiplier Solutions",
-                period: "Oct 2020 - Oct 2021",
+                period: "Jan 2021 – Jul 2022",
                 location: "Hyderabad, India",
                 description: [
-                  " Leveraged JavaScript ES6+ features to create clean, modular, and maintainable code, reducing technical debt",
-                  " Built and deployed interactive dashboards with React.js and integrated with back-end systems for real-time data visualization",
-                  " Designed chatbots using TypeScript, tailored to specific client requirements for lead generation and customer support",
-                  " Leveraged Bootstrap's extensive documentation for rapid prototyping and consistent UI standards",
-                  " Administered Vtiger CRM user accounts, streamlining processes and reducing overhead by 25%, while improving data security protocols",
-                  " Optimized website performance, reducing page load times by 40% and increasing average session duration by 20%",
+                  "Built and maintained React.js-based web applications, developing reusable functional components using React Hooks (useState, useEffect, useContext) and managing state with Redux and Context API.",
+                  "Developed responsive, cross-browser-compatible UI layouts using HTML5, CSS3, Flexbox, Grid, and Bootstrap, translating Figma designs into polished interfaces.",
+                  "Integrated RESTful APIs using Axios to fetch and display dynamic data, implementing loading states, error handling, and data caching within React components.",
+                  "Implemented client-side routing using React Router, setting up protected routes and dynamic navigation across multi-page React applications.",
+                  "Built and optimized WordPress-based pages for client projects, customizing themes, managing plugins, and improving frontend performance through asset minification.",
+                  "Gained working knowledge of Angular by building small feature modules, working with Angular components, templates, and basic RxJS observables.",
+                  "Identified and resolved UI bugs reported during QA cycles, improving visual consistency and functional reliability across key pages.",
+                  "Participated in sprint planning, daily standups, and retrospectives, building solid familiarity with Agile development practices."
+                ]
+              },
+              {
+                title: "Junior Web Developer",
+                company: "Multiplier Solutions",
+                period: "Jan 2020 – Dec 2020",
+                location: "Hyderabad, India",
+                description: [
+                  "Converted PSD and Figma design mockups into clean, semantic, and pixel-perfect HTML5/CSS3 web pages, ensuring full cross-browser compatibility across Chrome, Firefox, Safari, and Edge.",
+                  "Developed and customized WordPress websites for small and medium-sized businesses, including theme setup, plugin integration, and page builder configuration using Elementor.",
+                  "Built and maintained WooCommerce-based e-commerce pages, configuring product listings, payment gateways, and checkout flows as per client requirements.",
+                  "Created custom WordPress child themes by modifying PHP templates, custom CSS overrides, and template hierarchy adjustments to match client branding guidelines.",
+                  "Wrote basic PHP scripts to extend WordPress functionality including custom post types, shortcodes, and form handling logic.",
+                  "Implemented responsive layouts using Bootstrap and CSS Flexbox, ensuring websites rendered correctly across desktops, tablets, and mobile devices.",
+                  "Applied basic SEO practices including meta tags, structured headings, alt text, and sitemap configuration to improve search visibility.",
+                  "Maintained and updated existing client websites with content changes, plugin upgrades, and bug fixes, ensuring uptime and visual consistency."
                 ]
               }
             ].map((job, index) => (
@@ -186,22 +187,21 @@ function App() {
           </div>
         </section>
 
-        {/* Work Section"py-20 px-8 lg:px-16 bg-zinc-900" */}
+        {/* Projects Section */}
         <section id="projects" className="py-20 px-8 lg:px-16 bg-black">
           <h2 className="text-3xl font-bold mb-12">Projects</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {[
               {
                 title: "Dining Table Reservation System",
-                description: "A web-based system that enables customers to view available tables, make reservations, and receive notifications, while helping restaurant staff manage bookings and optimize seating",
+                description: "A web-based system that enables customers to view available tables, make reservations, and receive notifications, while helping restaurant staff manage bookings and optimize seating.",
                 tags: ["Java", "JavaScript"],
                 link: "https://github.com/nimmalarakeshreddy/DiningTableReservation"
               },
-
               {
                 title: "Vision Prime Services",
-                description: "A Freelancing project with custom WordPress website designed to meet the client's specific needs, featuring a responsive layout, user-friendly navigation, and essential functionalities, ensuring a seamless online experience.",
-                tags: ["WordPress"],
+                description: "A freelancing project — custom WordPress website designed to meet the client's specific needs, featuring a responsive layout, user-friendly navigation, and essential functionalities, ensuring a seamless online experience.",
+                tags: ["WordPress", "HTML/CSS", "PHP"],
                 link: "https://visionprimeservices.com/"
               }
             ].map((project, index) => (
@@ -209,7 +209,6 @@ function App() {
                 key={index}
                 className="group relative overflow-hidden rounded-xl bg-zinc-800 hover:transform hover:scale-[1.02] transition-all duration-300"
               >
-
                 <div className="p-6">
                   <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
                   <p className="text-zinc-400 mb-4">{project.description}</p>
@@ -237,28 +236,26 @@ function App() {
             ))}
           </div>
         </section>
-        {/* education section */}
+
+        {/* Education Section */}
         <section id="education" className="py-20 px-8 lg:px-16 bg-zinc-900">
           <h2 className="text-3xl font-bold mb-12">Education</h2>
           <div className="space-y-12">
             {[
               {
-                degree: "Masters in Computer Science",
+                degree: "Master of Science in Computer Science",
                 university: "Western Illinois University",
-                period: "Aug 2022 - May 2024",
-                location: "Macomb, IL, US",
+                period: "Aug 2022 – May 2024",
+                location: "Macomb, IL, USA",
                 GPA: "3.5"
-
               },
               {
-                degree: "Bachelors in Computer Science & Technology",
-                university: "Bharat Institute of Engineering & Technology",
-                period: "Aug 2017 - Sep 2021",
+                degree: "Bachelor of Technology in Computer Science & Engineering",
+                university: "JNTU Hyderabad",
+                period: "Aug 2017 – May 2021",
                 location: "Hyderabad, India",
                 GPA: "3.1"
-
-              },
-
+              }
             ].map((education, index) => (
               <div key={index} className="relative pl-8 border-l-2 border-blue-500">
                 <div className="absolute -left-3 top-0 w-6 h-6 bg-blue-500 rounded-full flex items-center justify-center">
@@ -267,15 +264,14 @@ function App() {
                 <div className="mb-2">
                   <h3 className="text-xl font-semibold">{education.degree}</h3>
                   <p className="text-blue-400">{education.university}</p>
-                  <p className="text-sm text-zinc-400">{education.period} | {education.location} | GPA : {education.GPA}</p>
+                  <p className="text-sm text-zinc-400">{education.period} | {education.location} | GPA: {education.GPA}</p>
                 </div>
-
               </div>
             ))}
           </div>
         </section>
 
-        {/* Skills Section"py-20 px-8 lg:px-16 bg-black" */}
+        {/* Skills Section */}
         <section id="skills" className="py-20 px-8 lg:px-16 bg-black">
           <h2 className="text-3xl font-bold mb-12">Skills & Expertise</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -283,28 +279,42 @@ function App() {
               {
                 icon: <Code size={32} />,
                 title: "Frontend",
-                skills: ["HTML, CSS, JavaScript (ES6+), TypeScript",
-                  "React.js, Vue.js, jQuery, Bootstrap",
-                  "WordPress, Elementor",
-                  "UI/UX Design"]
+                skills: [
+                  "HTML5, CSS3, JavaScript (ES6+), TypeScript",
+                  "React.js, Angular, Next.js",
+                  "Redux Toolkit, NgRx, RxJS, React Query",
+                  "Tailwind CSS, Material UI, Bootstrap",
+                  "WordPress, Elementor, WooCommerce",
+                  "WCAG 2.1 Accessibility"
+                ]
               },
               {
                 icon: <Terminal size={32} />,
-                title: "Backend",
-                skills: ["Java, Python, PHP, Node.js",
-                  "Spring Boot, Spring, Hibernate",
-                  "PHP CodeIgniter, Ajax",
-                  "RESTful APIs"]
+                title: "Backend & APIs",
+                skills: [
+                  "Node.js (Express.js)",
+                  "RESTful APIs, GraphQL",
+                  "PHP (basic)",
+                  "API Integration & Axios"
+                ]
               },
               {
                 icon: <Database size={32} />,
                 title: "Database",
-                skills: ["MySQL", "MongoDB", "Vtiger CRM"]
+                skills: ["MySQL", "MongoDB", "PostgreSQL"]
               },
               {
                 icon: <Cloud size={32} />,
-                title: "DevOps",
-                skills: ["AWS (EC2, S3, RDS)", " GitHub", "Postman", "CI/CD Pipelines", "Agile & Lean UX Methodologies"]
+                title: "DevOps & Tools",
+                skills: [
+                  "AWS (EC2, S3, RDS)",
+                  "Docker, CI/CD (GitHub Actions)",
+                  "Git, GitHub",
+                  "Jest, React Testing Library",
+                  "Jasmine, Karma, Cypress",
+                  "Figma, Jira, Storybook",
+                  "Agile (Scrum, Kanban)"
+                ]
               }
             ].map((category, index) => (
               <div key={index} className="p-6 bg-zinc-900 rounded-xl">
@@ -330,7 +340,7 @@ function App() {
             </p>
 
             <div className="flex flex-col lg:flex-row items-center justify-between gap-8">
-              {/* Left Side - LinkedIn Button (Centered) */}
+              {/* Left Side - LinkedIn Button */}
               <div className="w-full lg:w-1/2 flex justify-center items-center h-full">
                 <a
                   href="https://www.linkedin.com/in/rakeshn7/"
@@ -348,9 +358,6 @@ function App() {
             </div>
           </div>
         </section>
-
-
-
 
         {/* Footer */}
         <footer className="py-8 px-8 lg:px-16 bg-black border-t border-black">
