@@ -136,7 +136,7 @@ function App() {
               {
                 title: "Junior Frontend Developer",
                 company: "Multiplier Solutions",
-                period: "Jan 2021 – Jul 2022",
+                period: "Jun 2021 – Jul 2022",
                 location: "Hyderabad, India",
                 description: [
                   "Built and maintained React.js-based web applications, developing reusable functional components using React Hooks (useState, useEffect, useContext) and managing state with Redux and Context API.",
@@ -152,7 +152,7 @@ function App() {
               {
                 title: "Junior Web Developer",
                 company: "Multiplier Solutions",
-                period: "Jan 2020 – Dec 2020",
+                period: "Jan 2019 – May 2020",
                 location: "Hyderabad, India",
                 description: [
                   "Converted PSD and Figma design mockups into clean, semantic, and pixel-perfect HTML5/CSS3 web pages, ensuring full cross-browser compatibility across Chrome, Firefox, Safari, and Edge.",
@@ -248,13 +248,13 @@ function App() {
                 period: "Aug 2022 – May 2024",
                 location: "Macomb, IL, USA",
                 GPA: "3.5"
-              },
-              {
-                degree: "Bachelor of Technology in Computer Science & Engineering",
-                university: "JNTU Hyderabad",
-                period: "Aug 2017 – May 2021",
-                location: "Hyderabad, India",
-                GPA: "3.1"
+              // },
+              // {
+              //   degree: "Bachelor of Technology in Computer Science & Engineering",
+              //   university: "JNTU Hyderabad",
+              //   period: "Aug 2017 – May 2021",
+              //   location: "Hyderabad, India",
+              //   GPA: "3.1"
               }
             ].map((education, index) => (
               <div key={index} className="relative pl-8 border-l-2 border-blue-500">
@@ -363,7 +363,7 @@ function App() {
         <footer className="py-8 px-8 lg:px-16 bg-black border-t border-black">
           <div className="flex flex-col sm:flex-row justify-between items-center">
             <p className="text-zinc-400 mb-4 sm:mb-0">
-              © 2025 Rakesh Reddy Nimmala. All rights reserved.
+              © 2026 Rakesh Reddy Nimmala. All rights reserved.
             </p>
             <div className="flex space-x-6">
               <a href="https://github.com/nimmalarakeshreddy" className="text-zinc-400 hover:text-white transition-colors">
